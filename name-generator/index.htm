@@ -7,16 +7,6 @@
   <body>
     <script>
       function gen(){
-        var getElem = document.getElementById;
-        var elem1 = getElem("gen1").innerHTML;
-        var elem2 = getElem("gen2").innerHTML;
-        var elem3 = getElem("gen3").innerHTML;
-        var elem4 = getElem("gen4").innerHTML;
-        var elem5 = getElem("gen5").innerHTML;
-        var elem6 = getElem("gen6").innerHTML;
-        var elem7 = getElem("gen7").innerHTML;
-        var elem8 = getElem("gen8").innerHTML;
-        var br = "<br />";
         var names1 = ["Diamond", "Emerald", "Iron", "Gold", "Stone", "Flower", "Summer", "Winter", "Acacia", "Oak", "Birch", "Quartz"];
         var names2 = [" City", "ville", "town", " Heights", " Hills", " Forest", " Plains", " Grove"];
         var name1 = names1[Math.floor(Math.random() * names1.length)];
@@ -35,14 +25,14 @@
         var name14 = names2[Math.floor(Math.random() * names2.length)];
         var name15 = names2[Math.floor(Math.random() * names2.length)];
         var name16 = names2[Math.floor(Math.random() * names2.length)];
-        elem1 = name1 + name9;
-        elem2 = name2 + name10;
-        elem3 = name3 + name11;
-        elem4 = name4 + name12;
-        elem5 = name5 + name13;
-        elem6 = name6 + name14;
-        elem7 = name7 + name15;
-        elem8 = name8 + name16;
+        document.getElementById("gen1").innerHTML = name1 + name9;
+        document.getElementById("gen2").innerHTML = name2 + name10;
+        document.getElementById("gen3").innerHTML = name3 + name11;
+        document.getElementById("gen4").innerHTML = name4 + name12;
+        document.getElementById("gen5").innerHTML = name5 + name13;
+        document.getElementById("gen6").innerHTML = name6 + name14;
+        document.getElementById("gen7").innerHTML = name7 + name15;
+        document.getElementById("gen8").innerHTML = name8 + name16;
       }
     </script>
     <button onclick="gen()">Generate</button>
