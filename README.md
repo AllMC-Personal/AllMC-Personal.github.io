@@ -1,1 +1,2 @@
-# AllMC-Personal.github.io
+# AllMC Personal Website
+A website for AllMC.
