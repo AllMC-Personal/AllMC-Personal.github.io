@@ -1,6 +1,6 @@
 @font-face {
   src: url("/styles/sga.ttf");
-  font-family: "SGA";
+  font-family: SGA;
 }
 body {
   background-color: dodgerblue;
